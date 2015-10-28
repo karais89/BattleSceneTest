@@ -5,13 +5,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance
     {
-        get { return _instance; }
+        get;
+        private set;
     }
-    private static GameManager _instance;
-
+    
     void Awake()
     {
-        _instance = this;
+        Instance = this;
     }
-
 }

@@ -8,8 +8,8 @@ public abstract class BaseControl : MonoBehaviour
     protected SpriteRenderer    _spriteRenderer;
     protected virtual void Awake()
     {
-        _animator = GetComponent<Animator>();
-        _transofrm = GetComponent<Transform>();
+        _animator       = GetComponent<Animator>();
+        _transofrm      = GetComponent<Transform>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 

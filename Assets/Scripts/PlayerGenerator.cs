@@ -8,6 +8,8 @@ public class PlayerGenerator : MonoBehaviour
     
     [SerializeField]
     private GameObject _playerPrefab;
+    
+
 
     void Awake()
     {
